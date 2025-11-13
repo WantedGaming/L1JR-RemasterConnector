@@ -1,0 +1,47 @@
+================================================================================
+XOR KEY EXTRACTION
+================================================================================
+
+Known plaintext: b'<?xml version="1.0" encoding="UTF-8"?>'
+Plaintext length: 38 bytes
+
+Encrypted data length: 128 bytes
+
+XOR Key (extracted from bytes 8-37):
+  Hex: bc99d6bac97d88a17e16c196ecd539e807b54dd678fcfe318d4bd29f44ef
+  Bytes: [188, 153, 214, 186, 201, 125, 136, 161, 126, 22, 193, 150, 236, 213, 57, 232, 7, 181, 77, 214, 120, 252, 254, 49, 141, 75, 210, 159, 68, 239]
+  Length: 30 bytes (30 bytes)
+
+================================================================================
+TESTING FOR REPEATING KEY PATTERN
+================================================================================
+
+Key length  4: Printable ratio = 39.06%
+  Pattern: bc99d6ba
+
+Key length  8: Printable ratio = 39.06%
+  Pattern: bc99d6bac97d88a1
+
+Key length 16: Printable ratio = 41.41%
+  Pattern: bc99d6bac97d88a17e16c196ecd539e8
+
+Key length 24: Printable ratio = 50.00%
+  Pattern: bc99d6bac97d88a17e16c196ecd539e807b54dd678fcfe31
+
+Key length 30: Printable ratio = 56.25%
+  Pattern: bc99d6bac97d88a17e16c196ecd539e807b54dd678fcfe318d4bd29f44ef
+  Preview: <?xml version="1.0" encoding="UTF-8"?>;m????Ef???2I"]"...
+
+================================================================================
+FULL DECRYPTION ATTEMPT WITH 30-BYTE KEY
+================================================================================
+
+Decrypted XML (128 bytes):
+Traceback (most recent call last):
+  File "D:\L1R Project\crack_xor_key.py", line 97, in <module>
+    print(decrypted.decode('utf-8', errors='replace'))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 41-43: character maps to <undefined>

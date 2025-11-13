@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>LineageLauncher.UnitTests</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\LineageLauncher.Core\LineageLauncher.Core.csproj" />
+    <ProjectReference Include="..\..\src\LineageLauncher.Crypto\LineageLauncher.Crypto.csproj" />
+    <ProjectReference Include="..\..\src\LineageLauncher.Network\LineageLauncher.Network.csproj" />
+    <ProjectReference Include="..\..\src\LineageLauncher.Patcher\LineageLauncher.Patcher.csproj" />
+    <ProjectReference Include="..\..\src\LineageLauncher.Launcher\LineageLauncher.Launcher.csproj" />
+    <ProjectReference Include="..\..\src\LineageLauncher.Infrastructure\LineageLauncher.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="FluentAssertions" Version="6.12.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+  </ItemGroup>
+
+</Project>

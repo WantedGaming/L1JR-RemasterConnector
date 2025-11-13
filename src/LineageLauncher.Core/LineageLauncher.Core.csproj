@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>LineageLauncher.Core</RootNamespace>
+    <AssemblyName>LineageLauncher.Core</AssemblyName>
+    <Description>Core domain models, entities, and interfaces for Lineage Remastered Launcher</Description>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,103 @@
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.App\bin\Debug\net8.0-windows
+Showing login window...
+info: LineageLauncher.Infrastructure.ConnectorAuthenticationService[0]
+      Authenticating user: testuser
+info: System.Net.Http.HttpClient.ConnectorApiClient.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:8085/outgame/login
+info: System.Net.Http.HttpClient.ConnectorApiClient.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:8085/outgame/login
+fail: LineageLauncher.Infrastructure.ConnectorAuthenticationService[0]
+      Authentication failed for user: testuser
+      System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+       ---> System.TimeoutException: The operation was canceled.
+       ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+       ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+       ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+         --- End of inner exception stack trace ---
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+         at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+         at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+         at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         --- End of inner exception stack trace ---
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at LineageLauncher.Network.ConnectorApiClient.LoginAsync(String account, String password, String macAddress, String hddId, String boardId, String nicId, String process, String macInfo, CancellationToken cancellationToken) in D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\ConnectorApiClient.cs:line 87
+         at LineageLauncher.Infrastructure.ConnectorAuthenticationService.AuthenticateAsync(String username, String password, CancellationToken cancellationToken) in D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Infrastructure\ConnectorAuthenticationService.cs:line 80
+info: LineageLauncher.Infrastructure.ConnectorAuthenticationService[0]
+      Authenticating user: testuser
+info: System.Net.Http.HttpClient.ConnectorApiClient.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:8085/outgame/login
+info: System.Net.Http.HttpClient.ConnectorApiClient.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:8085/outgame/login
+fail: LineageLauncher.Infrastructure.ConnectorAuthenticationService[0]
+      Authentication failed for user: testuser
+      System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+       ---> System.TimeoutException: The operation was canceled.
+       ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+       ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+       ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+         --- End of inner exception stack trace ---
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+         at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+         at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+         at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         --- End of inner exception stack trace ---
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at LineageLauncher.Network.ConnectorApiClient.LoginAsync(String account, String password, String macAddress, String hddId, String boardId, String nicId, String process, String macInfo, CancellationToken cancellationToken) in D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\ConnectorApiClient.cs:line 87
+         at LineageLauncher.Infrastructure.ConnectorAuthenticationService.AuthenticateAsync(String username, String password, CancellationToken cancellationToken) in D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Infrastructure\ConnectorAuthenticationService.cs:line 80
+info: LineageLauncher.Infrastructure.ConnectorAuthenticationService[0]
+      Authenticating user: testuser
+info: System.Net.Http.HttpClient.ConnectorApiClient.LogicalHandler[100]
+      Start processing HTTP request POST http://127.0.0.1:8085/outgame/login
+info: System.Net.Http.HttpClient.ConnectorApiClient.ClientHandler[100]
+      Sending HTTP request POST http://127.0.0.1:8085/outgame/login
+fail: LineageLauncher.Infrastructure.ConnectorAuthenticationService[0]
+      Authentication failed for user: testuser
+      System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+       ---> System.TimeoutException: The operation was canceled.
+       ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+       ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+       ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+         --- End of inner exception stack trace ---
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+         at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+         at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+         at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+         at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+         at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+         at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         --- End of inner exception stack trace ---
+         --- End of inner exception stack trace ---
+         at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+         at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+         at LineageLauncher.Network.ConnectorApiClient.LoginAsync(String account, String password, String macAddress, String hddId, String boardId, String nicId, String process, String macInfo, CancellationToken cancellationToken) in D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\ConnectorApiClient.cs:line 87
+         at LineageLauncher.Infrastructure.ConnectorAuthenticationService.AuthenticateAsync(String username, String password, CancellationToken cancellationToken) in D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Infrastructure\ConnectorAuthenticationService.cs:line 80
+Login dialog returned false or was closed
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...

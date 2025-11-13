@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>LineageLauncher.Launcher</RootNamespace>
+    <AssemblyName>LineageLauncher.Launcher</AssemblyName>
+    <Description>Process management for Lin.bin with parameter injection</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LineageLauncher.Core\LineageLauncher.Core.csproj" />
+    <ProjectReference Include="..\LineageLauncher.Crypto\LineageLauncher.Crypto.csproj" />
+    <ProjectReference Include="..\LineageLauncher.Network\LineageLauncher.Network.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>

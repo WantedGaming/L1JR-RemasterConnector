@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>LineageLauncher.Infrastructure</RootNamespace>
+    <AssemblyName>LineageLauncher.Infrastructure</AssemblyName>
+    <Description>Infrastructure services, dependency injection, and configuration management</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LineageLauncher.Core\LineageLauncher.Core.csproj" />
+    <ProjectReference Include="..\LineageLauncher.Crypto\LineageLauncher.Crypto.csproj" />
+    <ProjectReference Include="..\LineageLauncher.Network\LineageLauncher.Network.csproj" />
+    <ProjectReference Include="..\LineageLauncher.Patcher\LineageLauncher.Patcher.csproj" />
+    <ProjectReference Include="..\LineageLauncher.Launcher\LineageLauncher.Launcher.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>

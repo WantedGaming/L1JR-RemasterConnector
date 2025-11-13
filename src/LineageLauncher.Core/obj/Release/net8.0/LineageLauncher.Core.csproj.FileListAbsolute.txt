@@ -1,0 +1,11 @@
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\bin\Release\net8.0\LineageLauncher.Core.deps.json
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\bin\Release\net8.0\LineageLauncher.Core.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\bin\Release\net8.0\LineageLauncher.Core.pdb
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\obj\Release\net8.0\LineageLauncher.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\obj\Release\net8.0\LineageLauncher.Core.AssemblyInfoInputs.cache
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\obj\Release\net8.0\LineageLauncher.Core.AssemblyInfo.cs
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\obj\Release\net8.0\LineageLauncher.Core.csproj.CoreCompileInputs.cache
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\obj\Release\net8.0\LineageLauncher.Core.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\obj\Release\net8.0\refint\LineageLauncher.Core.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\obj\Release\net8.0\LineageLauncher.Core.pdb
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Core\obj\Release\net8.0\ref\LineageLauncher.Core.dll

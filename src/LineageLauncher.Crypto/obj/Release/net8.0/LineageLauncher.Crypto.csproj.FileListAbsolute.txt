@@ -1,0 +1,15 @@
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\bin\Release\net8.0\LineageLauncher.Crypto.deps.json
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\bin\Release\net8.0\LineageLauncher.Crypto.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\bin\Release\net8.0\LineageLauncher.Crypto.pdb
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\bin\Release\net8.0\LineageLauncher.Core.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\bin\Release\net8.0\LineageLauncher.Core.pdb
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\obj\Release\net8.0\LineageLauncher.Crypto.csproj.AssemblyReference.cache
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\obj\Release\net8.0\LineageLauncher.Crypto.GeneratedMSBuildEditorConfig.editorconfig
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\obj\Release\net8.0\LineageLauncher.Crypto.AssemblyInfoInputs.cache
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\obj\Release\net8.0\LineageLauncher.Crypto.AssemblyInfo.cs
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\obj\Release\net8.0\LineageLauncher.Crypto.csproj.CoreCompileInputs.cache
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\obj\Release\net8.0\LineageL.9FD18149.Up2Date
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\obj\Release\net8.0\LineageLauncher.Crypto.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\obj\Release\net8.0\refint\LineageLauncher.Crypto.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\obj\Release\net8.0\LineageLauncher.Crypto.pdb
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Crypto\obj\Release\net8.0\ref\LineageLauncher.Crypto.dll

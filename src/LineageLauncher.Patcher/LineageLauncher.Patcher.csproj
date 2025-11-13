@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>LineageLauncher.Patcher</RootNamespace>
+    <AssemblyName>LineageLauncher.Patcher</AssemblyName>
+    <Description>File patching engine with parallel downloads and Zstandard compression</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LineageLauncher.Core\LineageLauncher.Core.csproj" />
+    <ProjectReference Include="..\LineageLauncher.Network\LineageLauncher.Network.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ZstdSharp.Port" Version="0.8.2" />
+  </ItemGroup>
+
+</Project>

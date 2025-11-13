@@ -1,0 +1,17 @@
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\bin\Release\net8.0\LineageLauncher.Network.deps.json
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\bin\Release\net8.0\LineageLauncher.Network.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\bin\Release\net8.0\LineageLauncher.Network.pdb
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\bin\Release\net8.0\LineageLauncher.Core.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\bin\Release\net8.0\LineageLauncher.Crypto.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\bin\Release\net8.0\LineageLauncher.Core.pdb
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\bin\Release\net8.0\LineageLauncher.Crypto.pdb
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\obj\Release\net8.0\LineageLauncher.Network.csproj.AssemblyReference.cache
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\obj\Release\net8.0\LineageLauncher.Network.GeneratedMSBuildEditorConfig.editorconfig
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\obj\Release\net8.0\LineageLauncher.Network.AssemblyInfoInputs.cache
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\obj\Release\net8.0\LineageLauncher.Network.AssemblyInfo.cs
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\obj\Release\net8.0\LineageLauncher.Network.csproj.CoreCompileInputs.cache
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\obj\Release\net8.0\LineageL.470D92A3.Up2Date
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\obj\Release\net8.0\LineageLauncher.Network.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\obj\Release\net8.0\refint\LineageLauncher.Network.dll
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\obj\Release\net8.0\LineageLauncher.Network.pdb
+D:\L1R Project\L1R-CustomLauncher\src\LineageLauncher.Network\obj\Release\net8.0\ref\LineageLauncher.Network.dll

@@ -1,0 +1,20 @@
+﻿LineageLauncher
+
+
+winexe
+C#
+.cs
+D:\L1R Project\l1r-customlauncher\src\LineageLauncher.App\obj\Release\net8.0-windows\
+LineageLauncher.App
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+D:\L1R Project\l1r-customlauncher\src\LineageLauncher.App\App.xaml
+3-202912801
+4-59762025
+13-2067038103
+251-1002374949
+Views\CreateAccountWindow.xaml;Views\LoginWindow.xaml;Views\MainWindow.xaml;
+
+False
+
